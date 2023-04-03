@@ -1,0 +1,102 @@
+.banner {
+  width: 100%;
+  max-width: 1598px;
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.bannerImage {
+  background: #d79595;
+  border-radius: 4px;
+  max-width: 1114px;
+  height: 480px;
+}
+
+.bannerImageLink {
+  position: relative;
+}
+
+.textoBanner h1 {
+  width: 100%;
+  max-width: 465px;
+  height: 37px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.textoBanner h2 {
+  width: 100%;
+  max-width: 420px;
+  height: 172px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    max-width: 80%;
+    height: auto;
+    margin: 50px 0px;
+    flex-direction: column;
+    margin: 0 0 50px 0 !important;
+  }
+
+  .bannerImage {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+
+  .textoBanner h1,
+  .textoBanner h2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    height: 360px;
+  }
+
+  .bannerImage {
+    width: 100%;
+    max-width: 100%;
+    height: 360px;
+    border-radius: 0px;
+  }
+
+  .textoBanner h1,
+  .textoBanner h2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    height: 480px;
+  }
+
+  .textoBanner h1,
+  .textoBanner h2 {
+    margin: 0px 40px;
+    text-align: left;
+  }
+}

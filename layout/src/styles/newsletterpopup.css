@@ -1,0 +1,268 @@
+.newsletter-backdrop-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9997;
+  filter: blur(5px);
+}
+
+.newsletter-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
+.divForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.divForm form {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter-popup {
+  width: 848px;
+  height: 529.65px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+.newsletter-image img {
+  height: 100% !important;
+  width: 100% !important;
+}
+.divForm form {
+  justify-content: center;
+  align-items: center;
+}
+.divForm svg {
+  width: 28px;
+  height: 29.66px;
+}
+.divForm h2 {
+  width: 163px;
+  height: 21.19px;
+
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  /* Color-2 */
+
+  color: #464b54;
+}
+.divForm input::placeholder {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+
+  /* Color-4 */
+  padding: 10px;
+
+  color: #787d83;
+}
+.divForm label {
+  width: 260px;
+  height: 48.73px;
+
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* or 115% */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Color-4 */
+
+  color: #787d83;
+}
+.divForm span {
+  font-weight: bold;
+}
+.divForm input {
+  width: 322px;
+  height: 40px;
+
+  /* Branco */
+
+  background: #ffffff;
+  /* Cor Neutra - color-5-500 #BEBEBE */
+
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 10px;
+}
+.divForm button {
+  width: 322px;
+  height: 40px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  /* txt light 01 */
+
+  color: #ffffff;
+  background: #faa500;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-image {
+  width: 426px;
+  height: 530.71px;
+  margin-right: 20px;
+}
+
+.newsletter-image img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .divForm input::placeholder {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    align-items: center;
+
+    /* Color-4 */
+    padding: 10px;
+
+    color: #787d83;
+  }
+  .newsletter-popup {
+    width: 298px;
+    height: 307px;
+  }
+  .divForm {
+    width: 100%;
+  }
+  .divForm svg {
+    width: 28px;
+    height: 29.66px;
+  }
+  .divForm h2 {
+    width: 163px;
+    height: 21.19px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    color: #464b54;
+  }
+  .divForm label {
+    width: 258px;
+    height: 48px;
+
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 144% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Color-4 */
+    margin: 10px;
+
+    color: #787d83;
+  }
+  .divForm input {
+    width: 258px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .divForm button {
+    width: 258px;
+    height: 40px;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #faa500;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+  }
+}

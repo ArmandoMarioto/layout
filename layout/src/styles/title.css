@@ -1,0 +1,70 @@
+.titleMaeztra {
+  width: 100%;
+  margin: 20px;
+}
+
+.titleMaeztra h2 {
+  width: 100%;
+  height: auto;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #353535;
+}
+
+.titleMarca {
+  width: 100%;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.titleMarca h2 {
+  width: 100%;
+  height: auto;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  text-align: center;
+  color: #353535;
+}
+
+.titleVitrine {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+.titleVitrine h2 {
+  width: 100%;
+  height: auto;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  text-align: center;
+  color: #353535;
+}
+
+@media (max-width: 768px) {
+  .titleMaeztra {
+    margin: 15px 0px;
+  }
+  .titleMarca {
+    margin: 20px 0px !important;
+  }
+  .titleVitrine {
+    margin: 20px 0px !important;
+  }
+  .titleMaeztra h2,
+  .titleMarca h2,
+  .titleVitrine h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

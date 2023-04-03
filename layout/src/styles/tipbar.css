@@ -1,0 +1,54 @@
+.Tipbar {
+  width: 100%;
+  max-width: 1598px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tipbarDiv {
+  width: 30%;
+  max-width: 308px;
+  height: 64px;
+  background: #efefef;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tipbarDiv h2 {
+  height: 21px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #353535;
+}
+.tipbarDiv span {
+  height: 18px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .Tipbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .tipbarDiv {
+    width: 80%;
+    max-width: none;
+    margin-bottom: 16px;
+  }
+}

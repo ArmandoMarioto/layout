@@ -1,0 +1,259 @@
+@media screen and (max-width: 768px) {
+  .organizarColumn {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+    list-style: none;
+  }
+  .footerInfos {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footerInfos h3 {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #353535;
+    margin-bottom: 0px;
+  }
+
+  .feitopor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  div.feitopor ul {
+    display: flex;
+    color: white;
+  }
+  div.feitopor ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .medias svg,
+  .cartoes svg,
+  .feitopor svg,
+  .feitopor span {
+    color: white;
+  }
+  .footerInfos a {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    margin: 10px 0px;
+    display: flex;
+    color: #000000;
+  }
+  .footerInfos ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .socialMedias {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    background: #353535;
+  }
+
+  .medias,
+  .cartoes,
+  .feitopor {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .medias ul,
+  .cartoes ul,
+  .feitopor ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    color: white;
+  }
+
+  .medias li,
+  .cartoes li,
+  .feitopor li {
+    margin: 0 5px;
+  }
+
+  .medias a,
+  .cartoes a,
+  .feitopor a {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .medias svg,
+  .cartoes svg,
+  .feitopor svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .feitopor li,
+  .feitopor ul {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .feitopor ul {
+    margin-top: 10px;
+  }
+
+  .feitopor span {
+    width: auto;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 16px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    line-height: 14px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .footerInfos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .organizarColumn {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .footerInfos h3 {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #353535;
+    margin-bottom: 0px;
+  }
+
+  .footerInfos a {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    margin: 10px 0px;
+    display: flex;
+
+    /* color-2-900 */
+
+    color: #000000;
+  }
+  .footerInfos ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .socialMedias {
+    height: 85px;
+    background: #353535;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .medias,
+  .cartoes,
+  .feitopor {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 630px;
+  }
+  .medias ul,
+  .medias li,
+  .medias a,
+  .medias svg,
+  .cartoes ul,
+  .cartoes li,
+  .cartoes a,
+  .cartoes svg,
+  .feitopor ul,
+  .feitopor li,
+  .feitopor a,
+  .feitopor svg {
+    display: flex;
+    color: white;
+    margin: 0 5px;
+    height: 32px;
+    width: 32px;
+  }
+
+  .feitopor li,
+  .feitopor ul {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .feitopor ul {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .feitopor span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    width: 60px;
+
+    /* color-5-500 */
+
+    color: #ffffff;
+  }
+}

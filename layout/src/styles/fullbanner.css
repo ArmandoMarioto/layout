@@ -1,0 +1,235 @@
+/* Para dispositivos móveis */
+@media screen and (max-width: 480px) {
+  .FullBanner {
+    width: 100%;
+    height: 320px;
+    background: url(https://i.imgur.com/ftECh3G.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Prev {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 2% !important;
+  }
+
+  .Next {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    right: 7% !important;
+  }
+  .Next svg,
+  .Prev svg {
+    color: black;
+  }
+
+  .divOutono {
+    width: 235px;
+    height: 74px;
+    left: 63px;
+    top: 63px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headline {
+    color: white;
+    width: 90%;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #ffffff;
+  }
+
+  .divSub {
+    left: 50px;
+    top: 35%;
+    width: 90%;
+  }
+
+  .subhead {
+    height: auto;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #ffffff;
+  }
+
+  .btnConferir {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 76px;
+    height: 28px;
+    background: #faa500;
+    border-radius: 4px;
+    color: white;
+    border: none;
+  }
+}
+
+/* Para tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .FullBanner {
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background: url(https://i.imgur.com/ftECh3G.png);
+  }
+
+  .Prev {
+    width: 15px;
+    height: 25px;
+    left: 5%;
+    top: 50%;
+  }
+
+  .Next {
+    width: 15px;
+    height: 25px;
+    right: 5%;
+    top: 50%;
+  }
+
+  .divOutono {
+    left: 100px;
+    top: 25%;
+  }
+
+  .headline {
+    width: 80%;
+    height: 45px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .divSub {
+    left: 100px;
+    top: 40%;
+    width: 80%;
+  }
+
+  .subhead {
+    height: auto;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .btnConferir {
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .FullBanner {
+    width: 100%;
+    height: 600px;
+    background: url(https://i.imgur.com/ftECh3G.png);
+  }
+  .Prev {
+    position: relative;
+    width: 19.42px;
+    height: 32px;
+    left: 10%;
+    top: 50%;
+    background-color: "transparent";
+  }
+  .Next {
+    position: relative;
+    width: 19.42px;
+    height: 32px;
+    left: 1578px;
+    top: 50%;
+    background-color: "transparent";
+  }
+  .iconNext,
+  .iconPrev {
+    color: #353535;
+  }
+  .divOutono {
+    position: absolute;
+    width: 471px;
+    height: 49px;
+    left: 323px;
+    top: 375px;
+  }
+
+  .headline {
+    width: 471px;
+    height: 49px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #ffffff;
+  }
+  .divSub {
+    position: absolute;
+    left: 323px;
+    top: 416px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 20px auto;
+  }
+
+  .subhead {
+    width: 467px;
+    height: 48px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 20px auto;
+  }
+
+  .btnConferir {
+    width: 128px;
+    height: 48px;
+    background: #faa500;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}

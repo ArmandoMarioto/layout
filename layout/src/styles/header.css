@@ -1,0 +1,335 @@
+body {
+  margin: 0px !important;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.notificationDiv {
+  width: 100%;
+  height: 24px;
+  background: #353535;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.notificationDiv div {
+  align-items: center;
+  text-align: center;
+}
+.notificationDiv span {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.HeaderPrincipal {
+  width: 100%;
+  height: 88px;
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ImgLogo {
+  width: 147px;
+  height: 18px;
+  background: url(https://i.ibb.co/StZVfCx/logo-maeztra-novo.png);
+}
+.DivImg {
+  left: 8.39%;
+  right: 83.96%;
+}
+
+.SearchBox {
+  width: 791px;
+  height: 40px;
+}
+.boxSearch {
+  background: #efefef;
+  border-radius: 10px;
+  border: 0 none;
+  outline: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxSearch input::placeholder {
+  padding-left: 24px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.textoDoSpan {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.btnSearch {
+  width: 119px;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #faa500;
+  border-radius: 8px;
+  border: 0 none;
+  outline: 0;
+}
+
+.Profile {
+  width: 422px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.ProfileUser {
+  width: 99px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.IconUser {
+  width: 14px;
+  height: 16px;
+}
+
+.UserConta {
+  cursor: pointer;
+  width: 75px;
+  height: 21px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #353535;
+}
+.ProfileHeart {
+  cursor: pointer;
+  width: 101.29px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.IconHeart {
+  left: 0%;
+  right: 81.95%;
+  top: 14.29%;
+  bottom: 9.52%;
+}
+.UserHeart {
+  left: 25.95%;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #353535;
+}
+.ProfileCart {
+  box-sizing: border-box;
+  width: 134px;
+  height: 46px;
+  border: 1px solid #faa500;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.UserCart {
+  width: 80px;
+  height: 21px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #353535;
+}
+.IconBag {
+  width: 14.54px;
+  height: 16px;
+}
+
+.HeaderSecundario {
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+}
+.HeaderSecundario ul {
+  display: flex;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderSecundario li {
+  width: 146px;
+  height: 21px;
+  list-style: none;
+  display: grid;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.HeaderSecundario li :link {
+  font-family: "Titillium Web";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #353535;
+}
+.HeaderSecundario li :link.active {
+  color: #faa500;
+}
+
+.IconNovidades {
+  color: #000000;
+  justify-self: center;
+}
+
+.vestido {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Estilos para o ícone de três barras */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+
+.menu-icon__line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+  .HeaderPrincipal {
+    box-shadow: none !important;
+  }
+  .HeaderPrincipal svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  .menu {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-active .menu {
+    display: flex;
+  }
+}
